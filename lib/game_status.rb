@@ -30,10 +30,10 @@ def full?(board)
 end
 
 def draw?(board)
-if won?(board) == false && full?(board)
-  true
-  #true if not won but full
-else
-  false
+  if !won?(board) && full?(board)
+    true
+    #true if not won but full
+  else
+    false
 end
 end
