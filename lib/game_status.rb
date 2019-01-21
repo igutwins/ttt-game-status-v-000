@@ -28,3 +28,7 @@ def full?(board)
     square == nil || square == " "
   end
 end
+
+def draw?(board)
+
+end 
