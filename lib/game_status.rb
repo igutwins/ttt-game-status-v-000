@@ -47,7 +47,7 @@ end
 
 def winner(board)
 if won?(board) == true
-  won?(board)[0]
+  "#{won?(board)[0]}"
 else
   nil
 end
