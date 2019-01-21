@@ -47,7 +47,7 @@ end
 
 def winner(board)
   if won?(board)
-    puts "#{board[0]}"
+    puts "#{won?(board)[0]}"
   else
     nil
   end
