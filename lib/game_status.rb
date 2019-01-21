@@ -46,9 +46,9 @@ def over?(board)
 end
 
 def winner(board)
-if won?(board)
-  puts "#{won?(board)[0]}"
-else
-  nil
-end
+  if won?(board)
+    puts "#{won?(board)[0]}"
+  else
+    nil
+  end
 end
