@@ -36,4 +36,4 @@ if won?(board) != false && full?(board)
 else
   false
 end
-end 
+end
