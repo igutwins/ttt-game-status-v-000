@@ -46,7 +46,7 @@ def over?(board)
 end
 
 def winner(board)
-if won?(board) == true
+if won?(board)
   puts "#{won?(board)[0]}"
 else
   nil
