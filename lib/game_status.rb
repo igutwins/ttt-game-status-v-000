@@ -46,9 +46,9 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == true
-    winner = won?(board)
-    puts winner
+  if won?(board)
+    won?(board) = winning_combo
+    board[winning_combo[0]]
   else
     nil
   end
